@@ -1,0 +1,27 @@
+.skill-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
+  margin-right: 4px; /* Espacio entre los círculos */
+}
+
+.skill-circle.filled {
+  background-color: #daab19;
+}
+
+.skill-circles {
+  display: flex;
+  align-items: center;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 1.2em; /* Puedes ajustar el tamaño según necesites */
+}
+
+.hover\:shadow-md:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+}
